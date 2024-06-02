@@ -17,7 +17,7 @@ ARG VROOM_EXPRESS_RELEASE=master
 
 # clone here, since the runner image doesn't have git installed
 RUN echo "Cloning and installing vroom-express release/branch ${VROOM_EXPRESS_RELEASE}..." && \
-    git clone --branch $VROOM_EXPRESS_RELEASE --single-branch https://github.com/VROOM-Project/vroom-express.git
+    git clone --branch $VROOM_EXPRESS_RELEASE --single-branch https://github.com/paulasijit/vroom-express.git
 
 ARG VROOM_RELEASE=master
 
